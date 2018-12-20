@@ -1,0 +1,7 @@
+{% extends "frame" %}
+{% block body %}
+<taa:routed>
+<!-- Reject call with reason 403 (SIP Forbidden Code) and message-->
+<reject status="403" reason="Alias not in allowed list"/>
+</taa:routed>
+{% endblock %}
