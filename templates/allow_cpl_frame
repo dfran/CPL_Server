@@ -1,0 +1,7 @@
+{% extends "frame" %}
+{% block body %}
+<taa:routed>
+<!-- Route call but clear after 30 seconds if no answer -->
+<proxy timeout="30"/>
+</taa:routed>
+{% endblock %}

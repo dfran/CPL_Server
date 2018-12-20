@@ -1,0 +1,6 @@
+<cpl xmlns="urn:ietf:params:xml:ns:cpl"
+xmlns:taa="http://www.tandberg.net/cpl-extensions"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="urn:ietf:params:xml:ns:cpl cpl.xsd">
+{% block body %}{% endblock %}
+</cpl>
