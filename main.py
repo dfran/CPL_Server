@@ -1,17 +1,15 @@
 from flask import Flask, request, redirect
-import jinja2
 import os
 
-template_dir = os.path.join(os.path.dirname(__file__),'templates')
-jinja_env = jinja2.Environement(loader = jinja2.FileSystemLoader(template_dir))
 
 app = Flask(__name__)
 
 @app.route('/', methods=['POST'])
-
-def hello_world():
     return 'Hello, World!'
 
+@app.route('/', methods=['GET'])
+    return 'Hello, World!'
+    
 """def post():
 	calling_party
 	Get the calling calling_party
